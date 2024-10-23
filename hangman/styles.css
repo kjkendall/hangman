@@ -1,0 +1,167 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: black;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for readability */
+    border-radius: 10px;
+}
+
+#hangman-container {
+    margin: 60px 0;
+    padding-top: 10px;
+}
+
+
+/* Hint text styling */
+#hintDisplay {
+    font-size: 2rem; /* Increase this value to make it bigger */
+    font-weight: bold; /* Optional: Make the text bold */
+    margin-bottom: 15px; /* Optional: Add spacing below the hint */
+    margin-top: 15px;
+}
+#wordDisplay {
+    font-size: 2rem; /* Increase this value to make it bigger */
+    margin-bottom: 30px; /* Optional: Add spacing below the hint */
+}
+
+
+/* Dark mode hint styling */
+body.dark-mode #hintDisplay {
+    color: #f9f9f9; /* Make sure the hint text is visible in dark mode */
+}
+
+
+
+/* Background Image Styling */
+body {
+    background-image: url('images/hangman.png'); /* Replace 'your-image-path.jpg' with your actual image path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+}
+
+#letters button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#letters button:hover {
+    opacity: 0.7;
+}
+
+#toggle-theme {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toggle-theme:hover {
+    opacity: 0.8;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#restart-btn:hover {
+    opacity: 0.8;
+}
+
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+.dark-mode {
+    --background-color: black;
+    --text-color: white;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .container {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode select {
+    background-color: #333;
+    color: white;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 600px) {
+    #letters button {
+        margin: 3px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #toggle-theme, #restart-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #wordDisplay {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    #letters button {
+        margin: 2px;
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #toggle-theme, #restart-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    #wordDisplay {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}

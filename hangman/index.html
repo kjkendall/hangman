@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hangman Game</h1>
+            
+            <button id="toggle-theme">Toggle Light/Dark Mode</button>
+
+            <p>Guess the word and save yourself from the hangman's noose!</p>
+        </div>
+        <div class="container">
+            <div class="header">
+                <label for="categorySelect">Choose a category:</label>
+                <select id="categorySelect">
+                    <option value="music">Music (R&B & Hip Hop)</option>
+                    <option value="colors">Colors</option>
+                    <option value="names">Names</option>
+                </select>
+        </div>
+
+
+        <div id="hangman-container">
+            <p id="hintDisplay">Hint: </p>
+            <p id="wordDisplay">_ _ _ _ _</p>
+            <div id="letters"></div>
+        </div>
+        <p id="message"></p>
+        <button id="restart-btn">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
