@@ -1,5 +1,10 @@
 # Hangman Game with Categories, Hints, and Dark/Light Mode
 
+## Live Demo
+
+Check out the live version of the project [here](https://myhangmankk.netlify.app/).  
+
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -27,12 +32,34 @@ This project is a simple **Hangman Game** built with HTML, CSS, and JavaScript. 
 - CSS (with Light/Dark Mode support)
 - JavaScript (for game logic and interactivity)
 
-## Screenshots
-![Hangman Light Mode](path-to-light-mode-screenshot)
-![Hangman Dark Mode](path-to-dark-mode-screenshot)
+## How to Play
+- Select a category from the dropdown (e.g., Music, Colors, Names).
+- A word is selected randomly from the chosen category.
+- Read the hint to help you guess the word.
+- Use the on-screen alphabet buttons to guess letters.
+- You have a maximum of 6 wrong guesses before the game is over.
+- If you want to start a new game, click the Restart button.
+- Switch between Light Mode and Dark Mode using the toggle button.
 
-## Setup Instructions
+## Contributing
+Feel free to contribute by forking the repository and submitting a pull request. Issues and suggestions are welcome as well!
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/hangman-game.git
+To contribute:
+
+Fork this repository
+Create a new branch (git checkout -b feature-branch)
+
+
+
+Make your changes and commit (git commit -m 'Added new feature')
+Push to your branch (git push origin feature-branch)
+Open a Pull Request
+
+
+## Connect with Me
+- GitHub: kjeanineatl
+- LinkedIn: Kyra Kendall
+- TikTok: kjeanineatl
+- Email: kykendall81.com
+  
+Feel free to reach out for collaboration, feedback, or just to connect. Let's build something amazing together!
