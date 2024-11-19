@@ -60,6 +60,6 @@ Open a Pull Request
 - GitHub: kjeanineatl
 - LinkedIn: Kyra Kendall
 - TikTok: kjeanineatl
-- Email: kykendall81.com
+- Email: kykendall81@gmail.com
   
 Feel free to reach out for collaboration, feedback, or just to connect. Let's build something amazing together!
